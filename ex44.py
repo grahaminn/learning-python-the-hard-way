@@ -62,10 +62,10 @@ class Fortytwo(object):
         print "42, AFTER OTHER altered()"
 
 other = Other()
-son = Fortytwo(other)
+fortytwo = Fortytwo(other)
 
-son.implicit()
-son.override()
-son.altered()
+fortytwo.implicit()
+fortytwo.override()
+fortytwo.altered()
     
     
